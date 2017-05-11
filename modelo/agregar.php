@@ -1,8 +1,9 @@
 <?php
 
 
-include '.../lib/conexion.php';
+include '../lib/conexion.php';
 $conn=new Conexion;
+
 if($conn->conectar()){
 $nom=$_POST["nombre"];
 $totusd=$_POST["totalusd"];
